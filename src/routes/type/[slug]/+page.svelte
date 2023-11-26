@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import home from '$lib/images/home.svg'
   
     // let data = {};
 
@@ -31,7 +32,19 @@
         }
     };
 
+    function makeTitle(tit) {
+      var words = slug.split('_');
+
+      for (var i = 0; i < words.length; i++) {
+        var word = words[i];
+        words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+      }
+
+      return words.join(' ');
+    }
+
     fetchData();
+    // slug = 'ed'
 
     
 
@@ -42,7 +55,8 @@
 
      
                 
-    <a href="/" class="btn btn-outline-primary">Home</a>
+    <h1 class="slug">{makeTitle(slug)}</h1>
+    <a href="/" class="btn btn-primary"><img src="{home}" alt=""></a>
     <hr>
     {#if resultados}
       {#each Object.entries(resultados) as [key, value] (key)}

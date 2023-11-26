@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 col-sm-12" style="padding-bottom: 10px;">
+    <div class="col-md-4 col-sm-12" style="padding-bottom: 10px;" >
         <div class="card">
             <img src="{m3}" class="card-img-top" alt="...">
             <div class="card-body">

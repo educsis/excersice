@@ -19,3 +19,13 @@ h1.titulo {
     font-size: 4rem;
     font-weight: 300;
 }
+
+h1.slug {
+    font-size:  2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-title{
+    color: #fc7a71;
+}
