@@ -1,55 +1,64 @@
-<h1>Type</h1>
-<a href="/type/cardio">Cardio</a>
-<br>
-<a href="/type/olympic_weightlifting
-">Olympic Weight Lifting</a>
-<br>
-<a href="/type/plyometrics">Plyometrics</a>
-<br>
-<a href="/type/powerlifting">Powerlifting</a>
-<br>
-<a href="/type/strength">Strength</a>
-<br>
-<a href="/type/stretching">Stretching</a>
-<br>
-<a href="/type/strongman">Strongman</a>
-<br>
-<h1>Muscle</h1>
-<a href="/muscle/abdominals">Abdominals</a>
-<br>
-<a href="/muscle/abductors">Abductors</a>
-<br>
-<a href="/muscle/adductors">Adductors</a>
-<br>
-<a href="/muscle/biceps">Biceps</a>
-<br>
-<a href="/muscle/calves">Calves</a>
-<br>
-<a href="/muscle/chest">Chest</a>
-<br>
-<a href="/muscle/forearms">Forearms</a>
-<br>
-<a href="/muscle/glutes">Glutes</a>
-<br>
-<a href="/muscle/hamstrings">Hamstrings</a>
-<br>
-<a href="/muscle/lats">Lats</a>
-<br>
-<a href="/muscle/lower_back">Lower Back</a>
-<br>
-<a href="/muscle/middle_back">Middle Back</a>
-<br>
-<a href="/muscle/neck">Neck</a>
-<br>
-<a href="/muscle/quadriceps">Quadriceps</a>
-<br>
-<a href="/muscle/traps">Traps</a>
-<br>
-<a href="/muscle/triceps">Triceps</a>
-<h1>Difficulty</h1>
-<br>
-<a href="/difficulty/beginner">Beginner</a>
-<br>
-<a href="/difficulty/intermediate">Intermediate</a>
-<br>
-<a href="/difficulty/expert">Expert</a>
+<script>
+    import m1 from '$lib/images/m1.jpeg'
+</script>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="{m1}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Type of exercise</h5>
+              <p class="card-text">Choose the type of exercise of your liking.</p>
+              <div class="btn-group-vertical" role="group" aria-label="Vertical button group" style="width: 100%;">
+                <a href="/type/cardio" class="btn btn-outline-success btn-block">Cardio</a>
+                <a href="/type/olympic_weightlifting" class="btn btn-outline-success btn-block">Olympic Weight Lifting</a>
+                <a href="/type/plyometrics" class="btn btn-outline-success btn-block">Plyometrics</a>
+                <a href="/type/powerlifting" class="btn btn-outline-success btn-block">Powerlifting</a>
+                <a href="/type/strength" class="btn btn-outline-success btn-block">Strength</a>
+                <a href="/type/stretching" class="btn btn-outline-success btn-block">Stretching</a>
+                <a href="/type/strongman" class="btn btn-outline-success btn-block">Strongman</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="{m1}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Muscles</h5>
+              <p class="card-text">Choose the type of muscles of your liking.</p>
+              <div class="btn-group-vertical" role="group" aria-label="Vertical button group" style="width: 100%;">
+                <a href="/muscle/abdominals" class="btn btn-outline-success btn-block">Abdominals</a>
+                <a href="/muscle/abductors" class="btn btn-outline-success btn-block">Abductors</a>
+                <a href="/muscle/adductors" class="btn btn-outline-success btn-block">Adductors</a>
+                <a href="/muscle/biceps" class="btn btn-outline-success btn-block">Biceps</a>
+                <a href="/muscle/calves" class="btn btn-outline-success btn-block">Calves</a>
+                <a href="/muscle/chest" class="btn btn-outline-success btn-block">Chest</a>
+                <a href="/muscle/forearms" class="btn btn-outline-success btn-block">Forearms</a>
+                <a href="/muscle/glutes" class="btn btn-outline-success btn-block">Glutes</a>
+                <a href="/muscle/hamstrings" class="btn btn-outline-success btn-block">Hamstrings</a>
+                <a href="/muscle/lats" class="btn btn-outline-success btn-block">Lats</a>
+                <a href="/muscle/lower_back" class="btn btn-outline-success btn-block">Lower Back</a>
+                <a href="/muscle/middle_back" class="btn btn-outline-success btn-block">Middle Back</a>
+                <a href="/muscle/neck" class="btn btn-outline-success btn-block">Neck</a>
+                <a href="/muscle/quadriceps" class="btn btn-outline-success btn-block">Quadriceps</a>
+                <a href="/muscle/traps" class="btn btn-outline-success btn-block">Traps</a>
+                <a href="/muscle/triceps" class="btn btn-outline-success btn-block">Triceps</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="{m1}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Difficulty</h5>
+              <p class="card-text">Choose the type of difficulty of your liking.</p>
+              <div class="btn-group-vertical" role="group" aria-label="Vertical button group" style="width: 100%;">
+                <a href="/difficulty/beginner" class="btn btn-outline-success btn-block">Beginner</a>
+                <a href="/difficulty/intermediate" class="btn btn-outline-success btn-block">Intermediate</a>
+                <a href="/difficulty/expert" class="btn btn-outline-success btn-block">Expert</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
