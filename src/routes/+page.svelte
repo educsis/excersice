@@ -1,5 +1,7 @@
 <script>
     import m1 from '$lib/images/m1.jpeg'
+    import m2 from '$lib/images/m2.jpeg'
+    import m3 from '$lib/images/m3.jpeg'
 </script>
 <div class="row">
     <div class="col-md-4">
@@ -22,7 +24,7 @@
     </div>
     <div class="col-md-4">
         <div class="card">
-            <img src="{m1}" class="card-img-top" alt="...">
+            <img src="{m2}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Muscles</h5>
               <p class="card-text">Choose the type of muscles of your liking.</p>
@@ -49,7 +51,7 @@
     </div>
     <div class="col-md-4">
         <div class="card">
-            <img src="{m1}" class="card-img-top" alt="...">
+            <img src="{m3}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Difficulty</h5>
               <p class="card-text">Choose the type of difficulty of your liking.</p>

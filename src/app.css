@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Montserrat:ital,wght@0,100;0,300;1,100&display=swap');
+
 html {
     height: 100%;
 }
 
 body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: rgb(255,122,113);
-    background: linear-gradient(180deg, rgba(255,122,113,1) 0%, rgba(250,152,110,1) 100%);
+    /* background: linear-gradient(180deg, rgba(255,122,113,1) 0%, rgba(250,152,110,1) 100%); */
+}
+
+h1.titulo {
+    font-size: 4rem;
+    font-weight: 300;
 }
