@@ -3,8 +3,8 @@
     import m2 from '$lib/images/m2.jpeg'
     import m3 from '$lib/images/m3.jpeg'
 </script>
-<div class="row">
-    <div class="col-md-4">
+<div class="row" style="padding-bottom: 30px;">
+    <div class="col-md-4 col-sm-12" style="padding-bottom: 10px;">
         <div class="card">
             <img src="{m1}" class="card-img-top" alt="...">
             <div class="card-body">
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12" style="padding-bottom: 10px;">
         <div class="card">
             <img src="{m2}" class="card-img-top" alt="...">
             <div class="card-body">
@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12" style="padding-bottom: 10px;">
         <div class="card">
             <img src="{m3}" class="card-img-top" alt="...">
             <div class="card-body">
